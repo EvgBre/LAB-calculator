@@ -1,0 +1,41 @@
+.container {
+    width: 400px;
+    background-color: black;
+    margin: 0 auto;
+}
+.btn {
+    width: 24%;
+    height: 100px;
+    background:#d8d9db;
+    display:inline-block;
+    padding: 1px 1px;
+    font-size: 50px;
+    justify-content: space-between;
+    
+}
+.btn:hover {
+    background-color: #EBEBEB;
+}
+.btn:active {
+    background-color: #bbbcbe;
+}
+.btn.btn-result {
+    background:black;
+    color:white;
+    display:inline-block;
+    padding: 1px 1px;
+    width: 100%;
+    text-align: right;
+    font-family: monospace;
+}
+.btn.btn-math {
+    background-color: rgba(217, 149, 46, 0.972);
+    color: #FFFFFF;
+    width: 24%;
+}
+#clear {
+    width: 49.5%;
+}
+#zero {
+    width: 74.5%;
+}
